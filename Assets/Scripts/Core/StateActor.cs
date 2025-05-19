@@ -16,7 +16,7 @@ namespace CoreActor
             this._owner = owner;
             _idleState = new IdleState();
             _attackState = new AttackState(_owner);
-            _hurtState = new HurtState();
+            _hurtState = new HurtState(_owner);
             _dieState = new DieState();
             ChangeState(StateActorEnum.Idle);
         }

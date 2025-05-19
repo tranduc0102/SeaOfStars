@@ -15,7 +15,6 @@ namespace CoreActor
         }
         public void Enter()
         {
-            
             _attacker.AttackBehaviour?.ExecuteAttack();
         }
 

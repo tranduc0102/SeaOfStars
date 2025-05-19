@@ -29,7 +29,9 @@ namespace Player.Bowman
 
         private void OnAttackAnimationEvent()
         {
+            /*
             ObseverAnimationEvent.Instance.actionEnter -= OnAttackAnimationEvent;
+            */
 
             if (_projectilePrefab != null && _spawnPosition != null)
             {
@@ -45,8 +47,6 @@ namespace Player.Bowman
 
             _target.StateActor.ChangeState(StateActorEnum.Hurt);
             _owner.StateActor.ChangeState(StateActorEnum.Idle);
-
-            DOVirtual.DelayedCall(0.2f, () => ControllerGamePlay.Instance.NextTurn());
         }
 
         private void PlayAttackAnimation()
@@ -69,7 +69,14 @@ namespace Player.Bowman
             {
                 _owner.transform.DOJump(_originPos, 2f, 1, 0.5f)
                     .SetEase(Ease.InBack)
-                    .OnComplete(() => { _target = null; });
+                    .OnComplete(() =>
+                    {
+                        _target = null;
+                        DOVirtual.DelayedCall(0.5f, () =>
+                        {
+                            ControllerGamePlay.Instance.NextTurn();
+                        });
+                    });
             }
         }
 
@@ -87,6 +94,7 @@ namespace Player.Bowman
                 {
                     PlayAttackAnimation();
                     ObseverAnimationEvent.Instance.actionEnter += OnAttackAnimationEvent;
+                    ObseverAnimationEvent.Instance.actionExit = null;
                     ObseverAnimationEvent.Instance.actionExit += OnAttackAnimationExit;
                 });
         }

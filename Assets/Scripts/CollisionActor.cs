@@ -10,7 +10,9 @@ public class CollisionActor : MonoBehaviour
    {
       if (other.transform.TryGetComponent(out Actor actor))
       {
+         /*
          actor.Animator.SetTrigger("Hit");
+      */
       }
    }
 }

@@ -16,6 +16,7 @@ namespace CoreActor
         private void Start()
         {
             CurrentCharacter.InitData("BowMan");
+            TargetEnemy.InitData("Boar");
         }
 
         private void Update()
@@ -28,7 +29,7 @@ namespace CoreActor
 
         public void NextTurn()
         {
-            IsPlayerTurn = true;
+            IsPlayerTurn = !IsPlayerTurn;
 
             if (IsPlayerTurn)
             {

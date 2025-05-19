@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 3a436800025d5f145b4f3f9bd460837e, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -133,8 +133,9 @@ GameObject:
   - component: {fileID: 576158917}
   - component: {fileID: 576158916}
   - component: {fileID: 576158919}
-  - component: {fileID: 576158918}
   - component: {fileID: 576158921}
+  - component: {fileID: 576158922}
+  - component: {fileID: 576158923}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -162,7 +163,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 7baad55d92e47a649936761246ac3d4c, type: 3}
+  - {fileID: 2100000, guid: 45e420a0cf501ec4da9b3936944ddb3a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -185,7 +186,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -92027173, guid: 6f4c93b690f864040971a65e3c43f98e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -204,23 +205,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0.8, z: -5}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &576158918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576158915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0730bb8a9a84170a3966ec0aed866c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &576158919
 Animator:
   serializedVersion: 5
@@ -231,7 +220,7 @@ Animator:
   m_GameObject: {fileID: 576158915}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 471e3f65eefef4d42b6e3ad3fddc4229, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4359ad5aac0a21c4ea156d23a2616861, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -261,8 +250,36 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.51, y: 1.14, z: 0.2}
+  m_Size: {x: 1.51, y: 1.14, z: 0.3496333}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &576158922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576158915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f78e1da8d878406bb42c056b6bba7697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &576158923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576158915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee158225ee1e59f4791627785501d950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shaderTypes: 0
+  normalStrength: 5
+  normalSmoothing: 1
+  computingNormal: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e5c65b73830459ea1dbeada8d1712ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetEnemy: {fileID: 576158918}
+  TargetEnemy: {fileID: 576158922}
   CurrentCharacter: {fileID: 2065679100}
   prefab: {fileID: 186734, guid: 6452e6267dc07aa46a82c0e9dda9f5ae, type: 3}
   pos: {fileID: 1431423728}
@@ -1035,6 +1052,7 @@ GameObject:
   - component: {fileID: 2065679097}
   - component: {fileID: 2065679099}
   - component: {fileID: 2065679100}
+  - component: {fileID: 2065679101}
   m_Layer: 0
   m_Name: Bowman
   m_TagString: Untagged
@@ -1062,7 +1080,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 7baad55d92e47a649936761246ac3d4c, type: 3}
+  - {fileID: 2100000, guid: 45e420a0cf501ec4da9b3936944ddb3a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1120,7 +1138,7 @@ Animator:
   m_GameObject: {fileID: 2065679096}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4359ad5aac0a21c4ea156d23a2616861, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1145,6 +1163,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectilePrefab: {fileID: 186734, guid: 6452e6267dc07aa46a82c0e9dda9f5ae, type: 3}
   _spawnPosition: {fileID: 1431423728}
+--- !u!114 &2065679101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065679096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee158225ee1e59f4791627785501d950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shaderTypes: 0
+  normalStrength: 5
+  normalSmoothing: 1
+  computingNormal: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

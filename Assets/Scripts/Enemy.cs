@@ -1,6 +1,4 @@
-﻿using CoreActor;
-
-namespace CoreActor
+﻿namespace CoreActor
 {
     public class Enemy : Actor
     {
@@ -8,9 +6,6 @@ namespace CoreActor
 
         public void AcquireTarget()
         {
-            TargetCharacter = ControllerGamePlay.Instance.CurrentCharacter;
-
-           
         }
     }
 }
