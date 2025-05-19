@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: c837a474305debc4d8431d7470e357c3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 867
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fd76cc93699bf458e0a08de511bfac
+      internalID: -2027644140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 867
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2241235b7108cb64081f08096906c87c
+      internalID: 1497835555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 867
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d720e1278e1e6ce428125946820c47e4
+      internalID: -710872869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 867
+        width: 90
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea01d1c150d8d6d4ca03179e1f5ff511
+      internalID: -210608466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 867
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e8a2f95f5806f44bac2d64887d94f7
+      internalID: 718387550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle5
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 867
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9efd97352a8c804789907b886e88640
+      internalID: 55035609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle6
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 867
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4b4e03fef538b46972d45e3369eec8
+      internalID: -789888067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle7
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 867
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84b4483be8e57941a8e5a97e5042502
+      internalID: -1820400794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 694
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c674cabc224a13047a2d1dd2b9b3590b
+      internalID: -1729059594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 694
+        width: 116
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea660aa64f702e4780632125932380f
+      internalID: -1581350235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 694
+        width: 107
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967abec1bd9c0a4428960b9de4000246
+      internalID: 1142341866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 693
+        width: 114
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a33a2b8bb5e2384c8c05a378784ba1e
+      internalID: 785849639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk5
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 693
+        width: 117
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5e24fc49a122847804ae98cbe41c74
+      internalID: -1587670446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk6
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 693
+        width: 118
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b12904a3f12ae047947079231e717e0
+      internalID: 700271641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk7
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 693
+        width: 117
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d65a2f532b5384c969502a4923da25
+      internalID: 1642054982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk8
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 693
+        width: 135
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa316d0a392bfd4469fca5766b411cfe
+      internalID: -974653095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 520
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d269001830179454892fd3f836f9632c
+      internalID: 401698929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalAtk10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 520
+        width: 102
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c7dd62265a04648a463b799243865c
+      internalID: -261318013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_0
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 521
+        width: 87
+        height: 117
+      alignment: 9
+      pivot: {x: 0.57562256, y: 0.3122183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f7e7b0d7af249488de3bec72dcff63
+      internalID: 1109071792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_1
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 521
+        width: 92
+        height: 136
+      alignment: 9
+      pivot: {x: 0.48463306, y: 0.26653022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ac61fc1df42ae42a054b6aad5d13ec
+      internalID: 943346719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_2
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 521
+        width: 92
+        height: 152
+      alignment: 9
+      pivot: {x: 0.46538776, y: 0.24227504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8820b5f6e3019c64088553658317a9b8
+      internalID: -842045954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_3
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 521
+        width: 95
+        height: 161
+      alignment: 9
+      pivot: {x: 0.44797108, y: 0.2347431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb0659664d466a41921352eedab9511
+      internalID: -1438084303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 348
+        width: 91
+        height: 161
+      alignment: 9
+      pivot: {x: 0.4515817, y: 0.22678958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46f2f6ca4d465c44a1263c1b5078801
+      internalID: -521882788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 348
+        width: 92
+        height: 159
+      alignment: 9
+      pivot: {x: 0.47140104, y: 0.23425888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb899629400a7a478e821ce64539715
+      internalID: -639877346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_9
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 348
+        width: 92
+        height: 158
+      alignment: 9
+      pivot: {x: 0.46684796, y: 0.23629935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3743c06a7d8d09146bea11bc8a79f1d6
+      internalID: -1613960682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 348
+        width: 92
+        height: 163
+      alignment: 9
+      pivot: {x: 0.44935808, y: 0.22423549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6d0f5c8b66b9148927fa1dface950e
+      internalID: -442813604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 348
+        width: 92
+        height: 161
+      alignment: 9
+      pivot: {x: 0.45597175, y: 0.23606484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede48f7e3fc7aae4d8c1db94ef96ce74
+      internalID: -957715726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill1_10
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 348
+        width: 92
+        height: 145
+      alignment: 9
+      pivot: {x: 0.45647264, y: 0.2574183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7846fed714959418bcd17b0c697227
+      internalID: 1495251060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_0
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 175
+        width: 87
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5827177, y: 0.3035638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28023750e5d1874d868504fd371db2b
+      internalID: 487276714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 175
+        width: 143
+        height: 105
+      alignment: 9
+      pivot: {x: 0.6932616, y: 0.28746164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d81d0960a481b43b32c4bf38216e6b
+      internalID: 1189652746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_2
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 174
+        width: 148
+        height: 92
+      alignment: 9
+      pivot: {x: 0.6510917, y: 0.33342078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d7144fb02bbf84cbbec3a71f72289c
+      internalID: 938613299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_3
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 174
+        width: 150
+        height: 82
+      alignment: 9
+      pivot: {x: 0.6428093, y: 0.3748504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5245183dbceb978478b3e23da42aebc1
+      internalID: -2129287125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_4
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 174
+        width: 150
+        height: 79
+      alignment: 9
+      pivot: {x: 0.6193396, y: 0.39156756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd0d9e47e91ab745bea253171abba83
+      internalID: 719897669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_5
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 174
+        width: 149
+        height: 79
+      alignment: 9
+      pivot: {x: 0.6250131, y: 0.39040926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72529c0e379d98542be83d118147b339
+      internalID: 219773962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_6
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 174
+        width: 135
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5835639, y: 0.35143805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc42d61c5b1147c4a928ff48facdba34
+      internalID: 1824782764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 127
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5938131, y: 0.36086056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe952c18475f25409659193e22a6644
+      internalID: 1166538079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill2_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1
+        width: 102
+        height: 81
+      alignment: 9
+      pivot: {x: 0.59299994, y: 0.35946676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b72380ef7586754b97f07cabbc77664
+      internalID: 1915543747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3
+        width: 100
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5840185, y: 0.49020436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d3b3b39d7eeed44bf9813de296af6b
+      internalID: -142343906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit2
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 4
+        width: 102
+        height: 83
+      alignment: 9
+      pivot: {x: 0.56908524, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561f50c87366b224fa69a14d26cc9db1
+      internalID: -922634081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit3
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 4
+        width: 102
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5823711, y: 0.4804078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57e048a8145ed74c930a013e3277110
+      internalID: -1485708989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hit1: -142343906
+      Hit2: -922634081
+      Hit3: -1485708989
+      Idle0: -2027644140
+      Idle1: 1497835555
+      Idle2: -710872869
+      Idle3: -210608466
+      Idle4: 718387550
+      Idle5: 55035609
+      Idle6: -789888067
+      Idle7: -1820400794
+      NormalAtk1: -1729059594
+      NormalAtk10: -261318013
+      NormalAtk2: -1581350235
+      NormalAtk3: 1142341866
+      NormalAtk4: 785849639
+      NormalAtk5: -1587670446
+      NormalAtk6: 700271641
+      NormalAtk7: 1642054982
+      NormalAtk8: -974653095
+      NormalAtk9: 401698929
+      Skill1_0: 1109071792
+      Skill1_1: 943346719
+      Skill1_10: 1495251060
+      Skill1_2: -842045954
+      Skill1_3: -1438084303
+      Skill1_4: -521882788
+      Skill1_5: -442813604
+      Skill1_7: -957715726
+      Skill1_8: -639877346
+      Skill1_9: -1613960682
+      Skill2_0: 487276714
+      Skill2_1: 1189652746
+      Skill2_2: 938613299
+      Skill2_3: -2129287125
+      Skill2_4: 719897669
+      Skill2_5: 219773962
+      Skill2_6: 1824782764
+      Skill2_7: 1166538079
+      Skill2_8: 1915543747
+      sprite-sheet-158x173_18: -619775061
+      sprite-sheet-158x173_19: 1486176782
+      sprite-sheet-158x173_25: 1795011533
+      sprite-sheet-158x173_26: 839254022
+      sprite-sheet-158x173_29: 2085758183
+      sprite-sheet-158x173_30: 1596290402
+      sprite-sheet-158x173_31: 1122282422
+      sprite-sheet-158x173_34: -2087659988
+      sprite-sheet-158x173_36: 151493300
+      sprite-sheet-158x173_37: -1823977105
+      sprite-sheet-158x173_38: -1438724378
+      sprite-sheet-158x173_41: 1770192627
+      sprite-sheet-158x173_43: 1331984034
+      sprite-sheet-158x173_45: -117986438
+      sprite-sheet-158x173_49: 588816726
+      sprite-sheet-158x173_52: 1535391509
+      sprite-sheet-158x173_56: -1606668591
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
